@@ -15,7 +15,9 @@ tags:
 Xin chào mọi người. Mình xin chia sẽ một **UILabel Helper** nhỏ dùng trong truờng hợp **cần tính chiều cao của UILabel để xác định "Show More" button có nên được hiển thị hay không**.
 
 ### Đây là helper của mình:
+
 *Có một hạn chế ở helper này là bạn đã xác định được chiều rộng của UILabel. Mình sẽ khắc phục và update sau.*
+
 
 ```
 + (float)expectedHeight:(NSString *)text width:(float)width font:(UIFont *)font;
